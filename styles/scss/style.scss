@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+
+$main_font: 'Open Sans', sans-serif;
+$head_font: 'Montserrat', sans-serif;
+$main_font_size: 16px;
+$head_font_size: 30px;
+$main_color: #111;
+$orange: #f2952d;
+$bg_color: #f6f6f8;
+
+html { scroll-behavior: smooth; }
+  
+body {
+    font-family: $main_font;
+    font-size: $main_font_size;
+    color: $main_color;
+    background-color: $bg_color;
+}
+
+header { background-color: #fff; }
+
+a {
+    font-family: $main_font;
+    color: $main_color;
+}
+
+a:hover {
+    color: $orange;
+    transition: .3s;
+}
+
+.h1, .h2 {
+    font-family: $head_font;
+    font-size: $head_font_size;
+}
+
+.breads .h2, .baked .h2, .reviews .h2  { color: $bg_color; }
+
+.contact .h5 {
+    font-family: $head_font;
+    letter-spacing: .1em;
+}
+
+.mw_bg1 { background: url(../../assets/bg_2.jpg) 100% 0/auto 100% no-repeat; }
+.mw_bg2 { background: url(../../assets/bg_4.jpg) 100% 0/auto 100% no-repeat; }
+.mw_bg3 { background: url(../../assets/bg_6.jpg) 100% 0/auto 100% no-repeat; }
+.mw_bg4 { background: url(../../assets/bg_7.jpg) 100% 0/auto 100% no-repeat; }
+
+.mw_home_emptyBlock_bg1 { background: url(../../assets/bg_home.jpg) 100% 0/auto 100% no-repeat; }
+
+.wm_logo_small { height: 40px; }
+.wm_logo_large { height: 132px; }
+
+.mw_bread_item {
+    background-color: $bg_color;
+    
+    .bread_img { width: 100%; }
+
+    .h4 {
+        font-family: $head_font;
+        font-size: 18px;
+        letter-spacing: .1em;
+    }
+}
+
+.mw_baked_item {
+    background-color: rgba(0,0,0, 0.6);
+    
+    p { color: #fff; }
+    
+    .h4 {
+        color: $orange;
+        font-family: $head_font;
+        font-size: 24px;
+    }
+}
+
+.mw_review_item {
+    background-color: $orange;
+
+    p { color: #fff; }
+
+    .h5 {
+        font-family: $head_font;
+        font-size: 20px;
+    }
+}
+
+.mw_btn {
+    letter-spacing: .2em;
+    --bs-btn-color: $main_color;
+    --bs-btn-padding-x: 2.5em;
+    --bs-btn-padding-y: .6em;
+    --bs-btn-border-radius: 1.5rem;
+    --bs-border-width: .1em;
+}
+
+.mw_quote { top: -52px; left: 6px; }
+
+.mw_form {
+    input { border-radius: 1.5rem; }
+
+    input::placeholder { color: rgba(0, 0, 0, 0.5); }
+    input::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.5); }
+    input::-moz-placeholder { color: rgba(0, 0, 0, 0.5); }
+    input:-ms-input-placeholder { color: rgba(0, 0, 0, 0.5); }
+    input::-ms-input-placeholder { color: rgba(0, 0, 0, 0.5); }
+
+    button {
+        letter-spacing: .2em;
+        --bs-btn-border-radius: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {   
+    .list-inline-item { display: inline-block !important; }
+
+    .h2 { font-size: 52px; }
+
+    .mw_home_emptyBlock_bg2 {background: url(../../assets/bg_3.jpg) 0 85%/auto 100% no-repeat; }
+
+    .contact .row:last-child { text-align: left !important; }
+
+    .contact .px-4 {
+        padding-right: 3rem!important;
+        padding-left: 3rem!important;
+    }
+}
+
+@media (min-width: 992px) {
+    .mw_bg1 {background: url(../../assets/bg_2.jpg) 50%/auto auto no-repeat; }    
+    .mw_bg2 {background: url(../../assets/bg_4.jpg) 50%/auto auto no-repeat; }    
+    .mw_bg3 {background: url(../../assets/bg_6.jpg) 50%/auto auto no-repeat; }    
+    .mw_bg4 {background: url(../../assets/bg_7.jpg) 50%/auto auto no-repeat; }    
+}
+
+@media (min-width: 1400px) {
+    .h1 { font-size: 55px; }
+
+    .mw_home_emptyBlock_bg1 { background: url(../../assets/bg_home.jpg) 0 0/auto 100% no-repeat; }
+    .mw_home_emptyBlock_bg2 {background: url(../../assets/bg_3.jpg) 100% 85%/auto 100% no-repeat; }
+}
+

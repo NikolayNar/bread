@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, scss, bootstrap, site">
+    <meta name="description" content="My second web-site on HTML and CSS (SCSSS) with using Bootstrap framework">
+    <meta name="author" content="Mykola `Nicholas` Narivskyi">
+    <title>Bread</title>
+    <link rel="stylesheet" href="./styles/bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./styles/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./assets/logo.png" type="image/png">
+</head>
+<body>
+    <header class="position-fixed top-0 start-50 translate-middle-x w-100">
+        <div class="container p-3">
+            <div class="row">
+                <div class="col-1">
+                    <img class="d-block mx-auto wm_logo_small" src="./assets/logo.png" alt="logo_small">
+                </div>
+                <div class="col-11">
+                    <ul class="list-inline list-unstyled text-end my-2">
+                        <li class="list-inline-item me-4"><a href="#home" class="text-decoration-none text-uppercase">home</a></li>
+                        <li class="list-inline-item me-4"><a href="#breads" class="text-decoration-none text-uppercase">breads</a></li>
+                        <li class="d-none list-inline-item me-4"><a href="#method" class="text-decoration-none text-uppercase">method</a></li>
+                        <li class="d-none list-inline-item me-4"><a href="#baked" class="text-decoration-none text-uppercase">baked</a></li>
+                        <li class="d-none list-inline-item me-4"><a href="#reviews" class="text-decoration-none text-uppercase">reviews</a></li>
+                        <li class="list-inline-item me-4"><a href="#contact" class="text-decoration-none text-uppercase">contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="home">
+            <div class="container-xl">
+                <div class="row pt-5">
+                    <div class="col-sm-12 col-md-7 mw_home_emptyBlock_bg1"></div>
+                    <div class="col-sm-12 col-md-5 text-center my-5">
+                        <img class="wm_logo_large my-4" src="./assets/logo.png" alt="logo_large">
+                        <p class="h1 my-2">Fresh breads handcrafted daily</p>
+                        <p class="my-4" >Nibh venenatis cras sed felis eget velit aliquet sagittis id. Tellus pellentesque eu tincidunt tortor aliquam nulla.</p>
+                        <button type="button" class="btn btn-outline-secondary text-uppercase fw-bold mw_btn my-5">read more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="breads" class="breads">
+            <div class="container-xl text-center p-5 mw_bg1">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="h2 text-capitalize my-3">our breads</p>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+                        <div class="mw_bread_item h-100 rounded-top p-3">
+                            <img class="bread_img" src="./assets/bread1.jpg" alt="bread_example">
+                            <p class="h4 text-uppercase fw-bold my-3">white bread</p>
+                            <p class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam vel cupiditate distinctio.</p>
+                            <p><a href="#baked">more</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 my-2 ">
+                        <div class="mw_bread_item h-100 rounded-top p-3">
+                            <img class="bread_img" src="./assets/bread2.jpg" alt="bread_example">
+                            <p class="h4 text-uppercase fw-bold my-3">farming bread</p>
+                            <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint perspiciatis corrupti excepturi.</p>
+                            <p><a href="#baked">more</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 my-2 ">
+                        <div class="mw_bread_item h-100 rounded-top p-3">
+                            <img class="bread_img" src="./assets/bread3.jpg" alt="bread_example">
+                            <p class="h4 text-uppercase fw-bold my-3">loaf bread</p>
+                            <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint perspiciatis corrupti excepturi.</p>
+                            <p><a href="#baked">more</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 my-2 ">
+                        <div class="mw_bread_item h-100 rounded-top p-3">
+                            <img class="bread_img" src="./assets/bread4.jpg" alt="bread_example">
+                            <p class="h4 text-uppercase fw-bold my-3">sourdough</p>
+                            <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint perspiciatis corrupti excepturi.</p>
+                            <p><a href="#baked">more</a></p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section id="method" class="method">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 text-center my-5">
+                        <p class="h2 text-capitalize my-5">ingredients & method</p>
+                        <p class="my-5">Flour, water, sea salt, and leavening: four simple ingredients that—when mixed, shaped, fermented, and baked—make one of the most basic foods that has nourished humans for thousands of years. Since such few ingredients are involved, two things set great bread apart: quality ingredients and time.</p>
+                        <button type="button" class="btn btn-outline-secondary text-uppercase fw-bold mw_btn my-5">read more</button>
+                    </div>
+                    <div class="col-sm-12 col-md-7 mw_home_emptyBlock_bg2"></div>
+                </div>
+            </div>
+        </section>
+        <section id="baked" class="baked">
+            <div class="container-xl p-5 mw_bg2">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="h2 text-center text-capitalize my-5">our bread</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2 ">
+                        <div class="mw_baked_item h-100 rounded-4 p-4 ">
+                            <p class="h4 text-uppercase fw-bold">Glassic Baguette</p>
+                            <p class="fst-italic">Unbleached organic wheat flour, whole rye flour, water, sea salt, yeast</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                        <div class="mw_baked_item rounded-4 p-4 h-100">
+                            <p class="h4 text-uppercase fw-bold">Baguette</p>
+                            <p class="fst-italic">Naturally leavened baguette made using the Five Points Levain dough.  This baguette is crustier and chewier than the Classic Baguette</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                        <div class="mw_baked_item h-100 rounded-4 p-4">
+                            <p class="h4 text-uppercase fw-bold">Pekan Raisin</p>
+                            <p class="fst-italic">Naturally leavened bread made using the French Country dough with the additions of local Georgia pecans and Thompson raisins</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                        <div class="mw_baked_item h-100 rounded-4 p-4">
+                            <p class="h4 text-uppercase fw-bold">Everyday french</p>
+                            <p class="fst-italic">Everyday table loaf made using the Classic Baguette dough</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                        <div class="mw_baked_item h-100 rounded-4 p-4">
+                            <p class="h4 text-uppercase fw-bold">Multigrain</p>
+                            <p class="fst-italic">Naturally leavened bread made using the French Country dough with the additions of millet, quinoa, rolled oats, flax seeds, and sunflower seeds</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                        <div class="mw_baked_item h-100 rounded-4 p-4">
+                            <p class="h4 text-uppercase fw-bold">Danish Rye</p>
+                            <p class="fst-italic">Whole rye flour, cracked rye berries, water, natural leaven culture made with rye flour, pumpkin seeds, sunflower seeds, barley malt syrup, sea salt</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                        <div class="mw_baked_item h-100 rounded-4 p-4">
+                            <p class="h4 text-uppercase fw-bold">Levain</p>
+                            <p class="fst-italic">Unbleached organic wheat flour, whole rye flour, water, natural leaven culture, sea salt</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                        <div class="mw_baked_item h-100 rounded-4 p-4">
+                            <p class="h4 text-uppercase fw-bold">Ciabatta</p>
+                            <p class="fst-italic">Unbleached organic wheat flour, whole rye flour, water, natural leaven culture, sea salt, yeast</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                        <div class="mw_baked_item h-100 rounded-4 p-4">
+                            <p class="h4 text-uppercase fw-bold">Handmade Bread</p>
+                            <p class="fst-italic">Naturally leavened bread made using the Sourdough Rye dough and studded with dried black currants</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="h2 text-capitalize my-5">Our freshly baked bread is the hero of our breakfast menu</p>
+                        <button type="button" class="btn btn-outline-secondary text-uppercase fw-bold mw_btn">read more</button>
+                        <img class="img-fluid " src="./assets/bg_5.jpg" alt="background">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reviews" class="reviews">
+            <div class="container-xl p-5 mw_bg3">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="h2 text-center my-3">Read what our customers say</p>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+                        <div class="mw_review_item m-4 p-4">
+                            <svg class="position-relative mw_quote" xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="white" viewBox="0 0 16 16">
+                                <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM7.194 6.766a1.688 1.688 0 0 0-.227-.272 1.467 1.467 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 5.734 6C4.776 6 4 6.746 4 7.667c0 .92.776 1.666 1.734 1.666.343 0 .662-.095.931-.26-.137.389-.39.804-.81 1.22a.405.405 0 0 0 .011.59c.173.16.447.155.614-.01 1.334-1.329 1.37-2.758.941-3.706a2.461 2.461 0 0 0-.227-.4zM11 9.073c-.136.389-.39.804-.81 1.22a.405.405 0 0 0 .012.59c.172.16.446.155.613-.01 1.334-1.329 1.37-2.758.942-3.706a2.466 2.466 0 0 0-.228-.4 1.686 1.686 0 0 0-.227-.273 1.466 1.466 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 10.07 6c-.957 0-1.734.746-1.734 1.667 0 .92.777 1.666 1.734 1.666.343 0 .662-.095.931-.26z"/>
+                            </svg>
+                            <p class="fst-italic mb-4">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.</p>
+                            <p class="h5 text-capitalize fw-bold my-3">celia almeda</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+                        <div class="mw_review_item m-4 p-4">
+                            <svg class="position-relative mw_quote" xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="white" viewBox="0 0 16 16">
+                                <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM7.194 6.766a1.688 1.688 0 0 0-.227-.272 1.467 1.467 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 5.734 6C4.776 6 4 6.746 4 7.667c0 .92.776 1.666 1.734 1.666.343 0 .662-.095.931-.26-.137.389-.39.804-.81 1.22a.405.405 0 0 0 .011.59c.173.16.447.155.614-.01 1.334-1.329 1.37-2.758.941-3.706a2.461 2.461 0 0 0-.227-.4zM11 9.073c-.136.389-.39.804-.81 1.22a.405.405 0 0 0 .012.59c.172.16.446.155.613-.01 1.334-1.329 1.37-2.758.942-3.706a2.466 2.466 0 0 0-.228-.4 1.686 1.686 0 0 0-.227-.273 1.466 1.466 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 10.07 6c-.957 0-1.734.746-1.734 1.667 0 .92.777 1.666 1.734 1.666.343 0 .662-.095.931-.26z"/>
+                            </svg>
+                            <p class="fst-italic mb-4">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.</p>
+                            <p class="h5 text-capitalize fw-bold my-3">frank kinney</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+                        <div class="mw_review_item m-4 p-4">
+                            <svg class="position-relative mw_quote" xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="white" viewBox="0 0 16 16">
+                                <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM7.194 6.766a1.688 1.688 0 0 0-.227-.272 1.467 1.467 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 5.734 6C4.776 6 4 6.746 4 7.667c0 .92.776 1.666 1.734 1.666.343 0 .662-.095.931-.26-.137.389-.39.804-.81 1.22a.405.405 0 0 0 .011.59c.173.16.447.155.614-.01 1.334-1.329 1.37-2.758.941-3.706a2.461 2.461 0 0 0-.227-.4zM11 9.073c-.136.389-.39.804-.81 1.22a.405.405 0 0 0 .012.59c.172.16.446.155.613-.01 1.334-1.329 1.37-2.758.942-3.706a2.466 2.466 0 0 0-.228-.4 1.686 1.686 0 0 0-.227-.273 1.466 1.466 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 10.07 6c-.957 0-1.734.746-1.734 1.667 0 .92.777 1.666 1.734 1.666.343 0 .662-.095.931-.26z"/>
+                            </svg>
+                            <p class="fst-italic mb-4">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.</p>
+                            <p class="h5 text-capitalize fw-bold my-3">samuel perry</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+                        <div class="mw_review_item m-4 p-4">
+                            <svg class="position-relative mw_quote" xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="white" viewBox="0 0 16 16">
+                                <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM7.194 6.766a1.688 1.688 0 0 0-.227-.272 1.467 1.467 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 5.734 6C4.776 6 4 6.746 4 7.667c0 .92.776 1.666 1.734 1.666.343 0 .662-.095.931-.26-.137.389-.39.804-.81 1.22a.405.405 0 0 0 .011.59c.173.16.447.155.614-.01 1.334-1.329 1.37-2.758.941-3.706a2.461 2.461 0 0 0-.227-.4zM11 9.073c-.136.389-.39.804-.81 1.22a.405.405 0 0 0 .012.59c.172.16.446.155.613-.01 1.334-1.329 1.37-2.758.942-3.706a2.466 2.466 0 0 0-.228-.4 1.686 1.686 0 0 0-.227-.273 1.466 1.466 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 10.07 6c-.957 0-1.734.746-1.734 1.667 0 .92.777 1.666 1.734 1.666.343 0 .662-.095.931-.26z"/>
+                            </svg>
+                            <p class="fst-italic mb-4">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.</p>
+                            <p class="h5 text-capitalize fw-bold my-3">marry hudson</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>   
+        <section id="contact" class="contact">
+            <div class="container-xl mw_bg4">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4"></div>
+                    <div class="col-sm-12 col-lg-8 my-5 px-4">
+                        <div class="row my-5 px-4">
+                            <form class="row g-2 mw_form">
+                                <div class="col-12 my-5">
+                                    <p class="h2 text-capitalize text-center">contact us</p>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                  <label for="inputEmail" class="form-label">Email</label>
+                                  <input id="inputEmail" class="form-control" type="email" placeholder="Enter a valid email address">
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                  <label for="inputName" class="form-label">Name</label>
+                                  <input id="inputName" class="form-control" type="text" placeholder="Enter your Name">
+                                </div>
+                                <div class="col-12 my-4">
+                                  <button type="submit" class="btn btn-dark text-uppercase fw-bold w-100 py-2">submit</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-sm-12 col-md-4 px-5">
+                                <p class="h5 text-uppercase fw-bold my-3">find us</p>
+                                <p>121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</p>
+                            </div>
+                            <div class="col-sm-12 col-md-4 px-5">
+                                <p class="h5 text-uppercase fw-bold my-3">hours</p>
+                                <p class="fw-bold my-0">Monday - Saturday</p>
+                                <p class="my-0">9am - 7pm</p>
+                                <p class="fw-bold my-0">Sunday</p>
+                                <p>10am - 6pm</p>
+                            </div>
+                            <div class="col-sm-12 col-md-4 px-5">
+                                <p class="h5 text-uppercase fw-bold my-3">call us</p>
+                                <p class="fw-bold"><a class="text-decoration-none" href="tel:1-234-567-891">1 (234) 567-891</a></p>
+                                <p class="fw-bold"><a class="text-decoration-none" href="tel:2-345-333-897">1 (345) 333-897</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>     
+    </main>
+</body>
+</html>
