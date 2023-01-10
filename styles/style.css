@@ -39,23 +39,23 @@ a:hover {
 }
 
 .mw_bg1 {
-  background: url(../../assets/bg_2.jpg) 100% 0/auto 100% no-repeat;
+  background: url(./../assets/bg_2.jpg) 100% 0/auto 100% no-repeat;
 }
 
 .mw_bg2 {
-  background: url(../../assets/bg_4.jpg) 100% 0/auto 100% no-repeat;
+  background: url(./../assets/bg_4.jpg) 100% 0/auto 100% no-repeat;
 }
 
 .mw_bg3 {
-  background: url(../../assets/bg_6.jpg) 100% 0/auto 100% no-repeat;
+  background: url(./../assets/bg_6.jpg) 100% 0/auto 100% no-repeat;
 }
 
 .mw_bg4 {
-  background: url(../../assets/bg_7.jpg) 100% 0/auto 100% no-repeat;
+  background: url(./../assets/bg_7.jpg) 100% 0/auto 100% no-repeat;
 }
 
 .mw_home_emptyBlock_bg1 {
-  background: url(../../assets/bg_home.jpg) 100% 0/auto 100% no-repeat;
+  background: url(./../assets/bg_home.jpg) 100% 0/auto 100% no-repeat;
 }
 
 .wm_logo_small {
@@ -152,7 +152,7 @@ a:hover {
     font-size: 52px;
   }
   .mw_home_emptyBlock_bg2 {
-    background: url(../../assets/bg_3.jpg) 0 85%/auto 100% no-repeat;
+    background: url(./../assets/bg_3.jpg) 0 85%/auto 100% no-repeat;
   }
   .contact .row:last-child {
     text-align: left !important;
@@ -164,16 +164,16 @@ a:hover {
 }
 @media (min-width: 992px) {
   .mw_bg1 {
-    background: url(../../assets/bg_2.jpg) 50%/auto auto no-repeat;
+    background: url(./../assets/bg_2.jpg) 50%/auto auto no-repeat;
   }
   .mw_bg2 {
-    background: url(../../assets/bg_4.jpg) 50%/auto auto no-repeat;
+    background: url(./../assets/bg_4.jpg) 50%/auto auto no-repeat;
   }
   .mw_bg3 {
-    background: url(../../assets/bg_6.jpg) 50%/auto auto no-repeat;
+    background: url(./../assets/bg_6.jpg) 50%/auto auto no-repeat;
   }
   .mw_bg4 {
-    background: url(../../assets/bg_7.jpg) 50%/auto auto no-repeat;
+    background: url(./../assets/bg_7.jpg) 50%/auto auto no-repeat;
   }
 }
 @media (min-width: 1400px) {
@@ -181,9 +181,9 @@ a:hover {
     font-size: 55px;
   }
   .mw_home_emptyBlock_bg1 {
-    background: url(../../assets/bg_home.jpg) 0 0/auto 100% no-repeat;
+    background: url(./../assets/bg_home.jpg) 0 0/auto 100% no-repeat;
   }
   .mw_home_emptyBlock_bg2 {
-    background: url(../../assets/bg_3.jpg) 100% 85%/auto 100% no-repeat;
+    background: url(./../assets/bg_3.jpg) 100% 85%/auto 100% no-repeat;
   }
 }
